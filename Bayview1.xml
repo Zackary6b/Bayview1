@@ -34,5 +34,15 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="led_select" id="39" inline="true">
+        <field name="ACTION">ON</field>
+        <value name="LED">
+          <block type="math_number" id="46">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+      </block>
+    </next>
   </block>
 </xml>
